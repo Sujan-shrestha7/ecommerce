@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Sujan Shrestha's passion for coding, astronomy, and guitar. Learn about creative coding projects, cosmic mysteries, and soulful guitar melodies that inspire.">
+    <meta name="keywords" content="Sujan Shrestha, coding, astronomy, guitar, portfolio">
+    <meta name="author" content="Sujan's portfolio">
+    <meta name="author" content="Sujan Shrestha">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h2 class="nameLogo">Doshro Bazaar</h2>
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+            <button class="button">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="signIn.php" method="post">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-unread-outline"></ion-icon></span>
+                    <input type="email" id="signIn-email" name="email" required>
+                    <label>Email</label>
+                    <span id="emailError" class="error"></span>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" id="signIn-password" name="password" required>
+                    <label>Password</label>
+                    <span id="passwordError" class="error"></span>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forget Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+            <img src="codingg.jpg" alt="">
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="signUp.php" method="post">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <input type="text" id="signUp-username" name="username" required>
+                    <label>Username</label>
+                    <span id="usernameError" class="error"></span>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-unread-outline"></ion-icon></span>
+                    <input type="email" id="signUp-email" name="email" required>
+                    <label>Email</label>
+                    <span id="signupEmailError" class="error"></span>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" id="signUp-password" name="password" required>
+                    <label>Password</label>
+                    <span id="signupPasswordError" class="error"></span>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox">I agree to terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <section id="home">
+        <div class="box">
+            <div class="intro">
+                <h1>Welcome to Doshro Bazaar</h1>
+                <span>"A platform for your secondary trade !!"</span>
+            </div>
+            <img src="guitar.jpg" alt="">
+        </div>
+    </section>
+    <section id="products">
+        <div class="container">
+        <span class="prodcutsIntro">Products</span>
+            <div class="boxproducts">
+                <div class="guitar">
+                <img src="codingg.jpg" alt="">
+            </div>
+            <div class="astro">
+                <img src="anstronomy.jpg" alt="">
+            </div>
+            <div class="coddin">
+                <img src="guitar.jpg" alt="">
+            </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
