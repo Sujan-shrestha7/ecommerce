@@ -162,7 +162,7 @@ overflow: hidden;
     width: 270px;
     height: 30px;
     border-bottom: 2px solid #f2ecec;
-    margin: 30px 0;
+    margin: 30px 0 ;
 }
 
 .input-box label{
@@ -201,7 +201,7 @@ overflow: hidden;
     right: 8px;
     font-size: 1.2em;
     color: #f2ecec;
-    line-height: 57px;
+    line-height: 30px;
 }
 
 .remember{
